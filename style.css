@@ -2,8 +2,10 @@
    --orange: #FA7268
 }
 
+
+
 body {
-    position: relative;
+    position: ;
     padding: 0;
     margin: 0;
     
@@ -12,17 +14,21 @@ body {
     background-size: 100%;
     background-position: ;
     background-color: var(--orange);
+    display: flex;
+    justify-content: end
+   
 
 }
 
 .card {
-    position: absolute;
+    position: ;
     z-index: ;
     border-radius: 10px;
     backdrop-filter: ;
     text-align: center;
     justify-content: center;
     align-items: center;
+    
     
   
     background-color: #0d0707;
@@ -54,7 +60,9 @@ body {
 
 .card a {
    display: block;
-   margin: 10px 0;
+   padding-bottom:10px;
+   padding-right: 182px;
+
    font-size: 0.9em;
    color: #fda4a7;
    text-decoration: none;
@@ -67,12 +75,21 @@ body {
 .card button {
    width: 300px;
    padding: 10px;
+   margin-top: 20px;
    border: none;
    border-radius: 5px;
    background-color: var(--orange);
    color: #fff;
    font-size: 1em;
    cursor: pointer;
-   transition: background-color 0.3s;
+
+
+}
+@media (max-width: 768px) {
+   .card  {
+       max-width: 400px;
+      min-width: 350px;
+      border-radius: 20px;
+      justify-content:center;   }
 
 }
