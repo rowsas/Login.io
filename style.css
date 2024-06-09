@@ -1,0 +1,78 @@
+:root {
+   --orange: #FA7268
+}
+
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: ;
+    background-color: var(--orange);
+
+}
+
+.card {
+    position: absolute;
+    z-index: ;
+    border-radius: 10px;
+    backdrop-filter: ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+  
+    background-color: #0d0707;
+    width: 400px;
+    height: 100vh;
+}
+ .card h3{
+   margin: 250px 0 10px;
+    font-size: 2em;
+    color: #f8ecee;
+}
+ 
+ .card p {
+   margin: 0 0 20px;
+   font-size: 1em;
+   color: #d1bfc4;
+ }
+
+ form input {
+   width: 300px;
+   padding: 10px;
+   margin: 10px 0;
+   border: none;
+   border-radius: 5px;
+   background-color: #461f47;
+   color: #fff;
+   font-size: 1em;
+}
+
+.card a {
+   display: block;
+   margin: 10px 0;
+   font-size: 0.9em;
+   color: #fda4a7;
+   text-decoration: none;
+}
+
+.card ::placeholder {
+   color: #b39195;
+}
+
+.card button {
+   width: 300px;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   background-color: var(--orange);
+   color: #fff;
+   font-size: 1em;
+   cursor: pointer;
+   transition: background-color 0.3s;
+
+}
